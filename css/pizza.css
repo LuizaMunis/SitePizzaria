@@ -57,7 +57,7 @@ h2{ position: absolute;
     margin: 25px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px rgba(155, 52, 4, 0.5);
     transition: 0.3s all ease;
 }
 
