@@ -17,9 +17,9 @@
     position: absolute;
     top: 0;
     left: 0;
-  }
+}
   
-  ul {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -27,22 +27,26 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
-  }
+}
 
-
-  li a{
-    word-spacing: 10px;
+li a{
     margin: 50px;
+    margin-left: -25px;
     border-radius: 25px;
     padding: 7px;
     background-color: #f8620c;
     font-family: serif;
     color: black;
     text-decoration: none;
-    display: block;
     font-weight: 600;
-    
-  }
+}
+
+#logo{
+    font-family: cambria;
+    font-size: 20px;
+    margin-right: 950px;
+}
+
   
 h1{
     font-family:'Times New Roman';
@@ -59,11 +63,13 @@ h2{ position: absolute;
     top: 150px;
     left: 40%;
  }
+
  p{
     font-family: cambria;
  }
 
 .imagem{
+    border-radius: 25px;
     position: absolute;
     top:205px;
     height: 450px;
@@ -161,6 +167,4 @@ h2{ position: absolute;
 
   .card:hover{
     transform: scale3d(1.1, 1.1, 1);
-
   }
-  
